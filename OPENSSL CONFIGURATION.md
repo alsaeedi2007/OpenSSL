@@ -57,6 +57,18 @@ you can see the screenshot taken from the machine
 
 ![echoing passphrase on terminal](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20passout%20example.png)
 
+you can also stor the passphrase in a file and encrypt that file and use the encrypted file in openssl genrsa command, below is the illustration of that
+
+**Creating a text file that contain the passphrase in a plain text** 
+```
+echo "T3st@123$" > mypassphrase.txt
+```
+**Encrypt the plain text passphrase**
+```
+openssl enc
+```
+
+
 
 
   
