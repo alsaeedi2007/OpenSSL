@@ -67,7 +67,7 @@ echo "T3st@123$" > mypassphrase.txt
 ```
 **Encrypt the plain text passphrase**
 ```
-openssl enc
+openssl enc -aes-256-cbc -in mypassphrase.txt -out mypassphrase.enc
 ```
 
 
