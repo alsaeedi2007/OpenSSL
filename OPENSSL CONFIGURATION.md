@@ -13,12 +13,19 @@ To install OPENSSL package in your linux Machine ( Debian based - like Ubuntu ) 
 ```
 sudo apt install openssl -y
 ```
+you can see the below screenshot taken while installing OPENSSL in Linux mint machine
+
+![installing OPENSSL package](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20installation.png)
 ## Determine OpenSSL Version and Configuration
 
 ```
 openssl version 
 OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)`
 ```
+Refer to the below picture to check the OPENSSL version 
+
+
+
 ## private key generation 
 
 ## Viewing Private key information 
