@@ -47,7 +47,7 @@ openssl genrsa -aes256 -out myprivatekey.pem 4096
 
 you can see the following picture below 
 
-![Generating Private key ]()
+![Generating Private key ](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20genrsa.png)
 
 
 
