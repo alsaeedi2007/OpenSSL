@@ -44,7 +44,8 @@ to generate a private key, execute the below command:
 openssl genrsa -aes256 -out myprivatekey.pem 4096
 
 ```
-
+![Note] 
+the number 4096 indicate the number of bit used in private key 
 you can see the following picture below 
 
 ![Generating Private key ](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20genrsa.png)
