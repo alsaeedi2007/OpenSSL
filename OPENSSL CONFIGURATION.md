@@ -49,6 +49,14 @@ you can see the following picture below
 
 ![Generating Private key ](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20genrsa.png)
 
+to not be confused you can type the passphrase in a terminal by using the following command 
+```
+echo "T3st@123$" | openssl genrsa -aes256 -passout stdin -out myprivatekey3.pem 4096
+```
+you can see the screenshot taken from the machine
+
+![echoing passphrase on terminal](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20genrsa.png)
+
 
 
   
