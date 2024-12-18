@@ -37,6 +37,7 @@ First step tworad using OPENSSL is to generate private key and below the recomme
 - passphrase should not be stored in a file in a system, should be memorized for security purposes
 - if stored in a file then do not keep both encryption password and passphrase the same.
 - use a strong encryption algorithem for the private key
+- balance between long private key length and security ( Don't make it long as well as, try to make it acceptable ) 
 
 to generate a private key, execute the below command:
 
