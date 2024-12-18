@@ -55,7 +55,7 @@ echo "T3st@123$" | openssl genrsa -aes256 -passout stdin -out myprivatekey3.pem 
 ```
 you can see the screenshot taken from the machine
 
-![echoing passphrase on terminal](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20genrsa.png)
+![echoing passphrase on terminal](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20passout%20example.png)
 
 
 
