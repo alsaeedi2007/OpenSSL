@@ -74,6 +74,7 @@ openssl enc -aes-256-cbc -in mypassphrase.txt -out mypassphrase.enc
 - Use the command: ``` echo "T3st@123$" | openssl genrsa -aes256 -passout stdin -out myprivatekey3.pem 4096 ```
 - use the command : ``` openssl genrsa -aes256 -passout pass:T3st@123$ -out myprivatekey3.pem 4096 ```
 
+This is <span style="color: red;"> red text</span> and this is <span style="color: blue;"> blue text</span>.
 
 
 
