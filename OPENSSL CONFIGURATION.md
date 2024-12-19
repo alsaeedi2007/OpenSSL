@@ -93,7 +93,7 @@ openssl enc -aes-256-cbc -in mypassphrase.txt -out mypassphrase.enc
 
 to view the information of the private key you can use ``` openssl rsa -in myprivatekey3.pem ```, once you execute this command, the private key will be displayed in an encoded form as shown on the screenshot below 
 
-![show private key info]()
+![show private key info](https://github.com/alsaeedi2007/OpenSSL/blob/main/opessl%20rsa%2001.png)
 
 
 
