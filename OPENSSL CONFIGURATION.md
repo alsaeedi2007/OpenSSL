@@ -70,6 +70,11 @@ echo "T3st@123$" > mypassphrase.txt
 openssl enc -aes-256-cbc -in mypassphrase.txt -out mypassphrase.enc
 ```
 
+**My Recommendation** 
+- Use the command: echo "T3st@123$" | openssl genrsa -aes256 -passout stdin -out myprivatekey3.pem 4096
+- use the command : openssl genrsa -aes256 -passout pass:T3st@123$ -out myprivatekey3.pem 4096
+
+
 
 
 
