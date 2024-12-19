@@ -7,6 +7,9 @@ OpenSSL is a de facto standard in this space and comes with a long history.
 Today, OpenSSL is ubiquitous on the server side and in many client programs. 
 The command-line tools are also the most common choice for key and certificate management. 
 
+![Configuration Steps Diagram]()
+
+
 ## Installing OPENSSL 
 To install OPENSSL package in your linux Machine ( Debian based - like Ubuntu ) execute the below command
 
