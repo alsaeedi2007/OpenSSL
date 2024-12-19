@@ -76,6 +76,9 @@ openssl enc -aes-256-cbc -in mypassphrase.txt -out mypassphrase.enc
 **My Recommendation** 
 - Use the command: ``` echo "T3st@123$" | openssl genrsa -aes256 -passout stdin -out myprivatekey3.pem 4096 ```
 - use the command : ``` openssl genrsa -aes256 -passout pass:T3st@123$ -out myprivatekey3.pem 4096 ```
+- provide password interactively while excuting the command ``` openssl genrsa -aes256 -out myprivatekey3.pem 4096 ```, once you execute the command you will be prompted to give a passphrase and to confirm it again.
+
+  
 
 
 
