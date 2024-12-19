@@ -7,7 +7,7 @@ OpenSSL is a de facto standard in this space and comes with a long history.
 Today, OpenSSL is ubiquitous on the server side and in many client programs. 
 The command-line tools are also the most common choice for key and certificate management. 
 
-![Configuration Steps Diagram]()
+![Configuration Steps Diagram](https://github.com/alsaeedi2007/OpenSSL/blob/main/Certificate%20Steps%20.png)
 
 
 ## Installing OPENSSL 
