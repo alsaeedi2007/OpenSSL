@@ -104,8 +104,13 @@ to view the information of the private key you can use ``` openssl rsa -in mypri
 
 
 
-
 ### Viewing private key paramaters 
+
+you can view the privatekey paramaters and for that you have multiple options, like you can view the private key in a text format, see the below picture for more illustration 
+
+![openss rsa text]()
+
+
 
 #### Modulus Info 
 
