@@ -100,7 +100,7 @@ to view the information of the private key you can use ``` openssl rsa -in mypri
 
 ``` openssl rsa -in myprivatekey3.pem -out myprivatekeyinfo ``` , you can see the output of the command in the below screenshot 
 
-![openssl rsa info]() 
+![openssl rsa info](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20rsa%2002.png) 
 
 
 
