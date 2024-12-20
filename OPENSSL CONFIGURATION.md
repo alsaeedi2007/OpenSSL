@@ -108,6 +108,12 @@ to view the information of the private key you can use ``` openssl rsa -in mypri
 
 you can view the privatekey paramaters and for that you have multiple options, like you can view the private key in a text format, see the below picture for more illustration 
 
+command to be executed to view the paramaters of the private key 
+```
+openssl rsa -in myprivatekey.pem
+```
+
+
 ![openss rsa text](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20rsa%2009.png)
 
 
