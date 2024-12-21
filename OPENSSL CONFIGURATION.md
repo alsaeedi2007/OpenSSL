@@ -122,8 +122,11 @@ openssl rsa -in myprivatekey.pem
 to view the modulus information of the private key execute the below command:  
 
 ```
-openssl rsa -in myprivatekey.pem -modulus -text
+openssl rsa -in myprivatekey.pem -modulus -noout 
 ```
+
+
+## Generating root certificate from private key 
 
 
 
