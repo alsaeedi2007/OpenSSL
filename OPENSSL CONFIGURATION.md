@@ -128,6 +128,8 @@ openssl rsa -in myprivatekey.pem -modulus -noout
 
 ## Generating root certificate from private key 
 
+![root certificate creation](https://github.com/alsaeedi2007/OpenSSL/blob/main/root%20certificate%2001.png)
+
 
 
 
