@@ -113,8 +113,11 @@ command to be executed to view the paramaters of the private key
 openssl rsa -in myprivatekey.pem
 ```
 
-
+ 
 ![openss rsa text](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20rsa%2009.png)
+
+#### Modulus Info 
+
 
 to view the modulus information of the private key execute the below command:  
 
@@ -125,7 +128,6 @@ openssl rsa -in myprivatekey.pem -modulus -text
 
 
 
-#### Modulus Info 
 
 
 
