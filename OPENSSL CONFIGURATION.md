@@ -116,6 +116,7 @@ openssl rsa -in myprivatekey.pem
 
 ![openss rsa text](https://github.com/alsaeedi2007/OpenSSL/blob/main/openssl%20rsa%2009.png)
 
+to view the modulus information of the private key execute the below command:  
 
 ```
 openssl rsa -in myprivatekey.pem -modulus -text
